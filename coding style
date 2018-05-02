@@ -1,0 +1,6 @@
+Don't use spaces around the '=' sign when used to indicate a keyword argument or a default parameter value.
+
+Yes: def complex(real, imag=0.0): return magic(r=real, i=imag)
+No:  def complex(real, imag = 0.0): return magic(r = real, i = imag)
+
+https://google.github.io/styleguide/pyguide.html?showone=Semicolons#Semicolons读到了 comments，未完待续
